@@ -11,8 +11,8 @@ export default function Home() {
       </header>
       <main className="text-center">
         <div>
-          <h1>Current player: <span>{current</span>
-          </h1>
+          <Button /> <Button />
+          <p className="text-yellow-300 m-3">This is a tic tac toe against a computer</p>
           <Board />
           <Button />
         </div>
