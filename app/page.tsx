@@ -11,10 +11,10 @@ export default function Home() {
       </header>
       <main className="text-center">
         <div>
-          <Button /> <Button />
+          <Button display="Start"/> <Button />
           <p className="text-yellow-300 m-3">This is a tic tac toe against a computer</p>
           <Board />
-          <Button />
+          <Button display="Reset"/>
         </div>
       </main>
     </div>
