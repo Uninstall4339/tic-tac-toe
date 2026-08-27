@@ -4,12 +4,19 @@ import Square from "../components/square"
 import { useState } from "react";
 
 export default function Board() {
+    
+    {/*Daten Modell*/}
     const [currentPlayer, setCurrentPlayer] = useState("X");
+
 
     const handlePlayerChange = () => {
         setCurrentPlayer(currentPlayer === "X" ? "O" : "X");
     }
+    {/*Spiel logik*/}
 
+    {/*Benutzer oberfläche*/}
+
+    {/*check what player made move and mark ither X or O*/}
     return(
         <>
             <h1 className="text-yellow-300 m-3 fornt-bold">
